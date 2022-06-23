@@ -24,6 +24,18 @@ def main():
     print(f"Ground Shipping cost is taxes and small flat charge plus a rate based on the weight of your package ${cost}" )
     print(f"Ground Premium Shipping which is a higher flat charge but no charge for weight is ${premium_cost}")
 
+    # Drone Shipping
+
+    drone_cost = ""
+
+    if weight <= 2:
+        drone_cost = weight * 4.50
+    elif 2 < weight <= 6:
+        drone_cost = weight * 9
+    elif 6 < weight <= 10:
+        drone_cost = weight * 12
+    elif 10 < weight:
+        drone_cost = weight * 14.25
 
 if __name__ == "__main__":
     main()
