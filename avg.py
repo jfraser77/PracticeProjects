@@ -1,4 +1,4 @@
-
+#Create a program avg.py that calculates and prints the average of 10 real (i.e., decimal) numbers entered by the user. Make sure you ask (i.e., prompt) the user to enter each number (the user will hit enter after each number). 
 
 
 
